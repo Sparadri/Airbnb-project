@@ -1,0 +1,7 @@
+<body>
+  <% infos = data.flats[owner] %>
+  <div class="show-userbox">
+    <h1><%= "Discover #{owner.capitalize}'s flats" %></h1>
+    <%= image_tag "#{infos.owner_picture}", class: "avatar-verylarge avatar-bordered" %>
+  </div>
+</body>
